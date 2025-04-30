@@ -1,34 +1,35 @@
 {
-  "name": "study-night", 
-  "version": "1.0.0", 
-  "description": "A front-end web application for flashcard learning. This project includes optimization, testing, and automation tasks.", 
-  "main": "index.js", 
-  "scripts": { 
-    "test": "echo \"Error: no test specified\" && exit 1", 
+  "name": "study-night",
+  "version": "1.0.0",
+  "description": "A front-end web application for flashcard learning. This project includes optimization, testing, and automation tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp"
-  }, 
-  "repository": { 
-    "type": "git", 
-    "url": "git+https://github.com/Obaida-Aws/Final_Udacity.git" 
   },
-  "keywords": [], 
-  "author": "", 
-  "license": "MIT", 
-  "type": "module", 
-  "bugs": { 
-    "url": "https://github.com/Obaida-Aws/Final_Udacity/issues" 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obaida-Aws/Final_Udacity.git"
   },
-  "homepage": "https://github.com/Obaida-Aws/Final_Udacity#readme", 
-  "devDependencies": { 
-    "@eslint/js": "^9.25.1", 
-    "chai": "^5.2.0", 
-    "cypress": "^14.3.2", 
-    "eslint": "^9.25.1", 
-    "globals": "^16.0.0", 
-    "gulp": "^5.0.0", 
-    "gulp-cli": "^3.0.0", 
-    "gulp-shell": "^0.8.0", 
-    "mocha": "^11.1.0", 
-    "parcel": "^2.14.4" 
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Obaida-Aws/Final_Udacity/issues"
+  },
+  "homepage": "https://github.com/Obaida-Aws/Final_Udacity#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "chai": "^5.2.0",
+    "cypress": "^14.3.2",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "gulp": "^5.0.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.1.0",
+    "parcel": "^2.14.4",
+    "prettier": "^3.5.3"
   }
 }
