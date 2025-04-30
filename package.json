@@ -1,0 +1,25 @@
+{
+  "name": "final_udacity",
+  "version": "1.0.0",
+  "description": "In this Project Students will optimize and test a front-end web application called Study Night, a flashcard tool. Using the skills gained throughout this course, they will create tests to ensure product quality, install and configure necessary project dependencies, and optimize and automate the application tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obaida-Aws/Final_Udacity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Obaida-Aws/Final_Udacity/issues"
+  },
+  "homepage": "https://github.com/Obaida-Aws/Final_Udacity#readme",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0"
+  }
+}
