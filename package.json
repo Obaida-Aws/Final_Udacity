@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Obaida-Aws/Final_Udacity#readme",
   "devDependencies": {
     "chai": "^5.2.0",
+    "cypress": "^14.3.2",
     "mocha": "^11.1.0"
   }
 }
