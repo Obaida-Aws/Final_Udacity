@@ -2,7 +2,7 @@
   "name": "study-night",
   "version": "1.0.0",
   "description": "A front-end web application for flashcard learning. This project includes optimization, testing, and automation tasks.",
-  "main": "index.js",
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp",
