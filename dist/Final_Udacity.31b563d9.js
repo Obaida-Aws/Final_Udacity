@@ -1104,7 +1104,7 @@ const submitSet = (e, setCards)=>{
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "renderAboutPage", ()=>renderAboutPage);
-var _aboutImagePng = require("../images/aboutImage.png");
+var _aboutImagePng = require("./images/aboutImage.png");
 var _aboutImagePngDefault = parcelHelpers.interopDefault(_aboutImagePng);
 // This function creates a header element
 var _utilityRenderFunctionsJs = require("./utilityRenderFunctions.js");
@@ -1135,14 +1135,14 @@ const renderAboutPage = ()=>{
     main.append(containerOuter);
 };
 
-},{"../images/aboutImage.png":"khGba","./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"khGba":[function() {},{}],"bA49a":[function(require,module,exports,__globalThis) {
+},{"./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","./images/aboutImage.png":"2s4ng"}],"2s4ng":[function() {},{}],"bA49a":[function(require,module,exports,__globalThis) {
 //DO NOT CHANGE ANYTHING IN THIS FILE//
 // This file is responsible for loading the home page
 //Imports image for homepage
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "renderHomePage", ()=>renderHomePage);
-var _homePagePng = require("../images/homePage.png");
+var _homePagePng = require("./images/homePage.png");
 var _homePagePngDefault = parcelHelpers.interopDefault(_homePagePng);
 //Helper functions
 var _utilityRenderFunctionsJs = require("./utilityRenderFunctions.js");
@@ -1164,6 +1164,6 @@ const renderHomePage = ()=>{
     main.append(homeContainer);
 };
 
-},{"../images/homePage.png":"4K0cp","./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"4K0cp":[function() {},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequireccf0", {})
+},{"./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","./images/homePage.png":"a86AX"}],"a86AX":[function() {},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequireccf0", {})
 
 //# sourceMappingURL=Final_Udacity.31b563d9.js.map
