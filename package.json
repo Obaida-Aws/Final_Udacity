@@ -4,7 +4,6 @@
   "description": "A front-end web application for flashcard learning. This project includes optimization, testing, and automation tasks.",
  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp",
     "start": "gulp",
     "format": "prettier --write .",
