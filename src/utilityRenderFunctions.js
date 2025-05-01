@@ -13,7 +13,6 @@ const createImage = (url, alt) => {
   return img;
 };
 
-
 // Create a header element with specified text and data attribute
 const createHeader = (headerType, text, dataCy) => {
   const header = document.createElement(headerType);

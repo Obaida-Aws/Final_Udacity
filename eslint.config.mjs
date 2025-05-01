@@ -18,12 +18,12 @@ export default defineConfig([
   },
   {
     // ✅ إضافة تعريف بيئة Cypress هنا
-    files: ['cypress/**/*.cy.js', '**/*.test.js'],  // إضافة ملفات الاختبار الخاصة بك
+    files: ['cypress/**/*.cy.js', '**/*.test.js'], // إضافة ملفات الاختبار الخاصة بك
     languageOptions: {
       globals: {
         ...globals.browser,
-        cy: 'readonly',    // إضافة cy كمتغير ثابت (readonly)
-        ...globals.mocha,  // تم إضافة Mocha
+        cy: 'readonly', // إضافة cy كمتغير ثابت (readonly)
+        ...globals.mocha, // تم إضافة Mocha
         ...globals.cypress, // تم إضافة Cypress
       },
     },

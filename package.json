@@ -2,7 +2,6 @@
   "name": "study-night",
   "version": "1.0.0",
   "description": "A front-end web application for flashcard learning. This project includes optimization, testing, and automation tasks.",
- 
   "scripts": {
     "gulp": "gulp",
     "start": "gulp",
