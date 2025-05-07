@@ -17,14 +17,13 @@ export default defineConfig([
     },
   },
   {
-    
-    files: ['cypress/**/*.cy.js', '**/*.test.js'], 
+    files: ['cypress/**/*.cy.js', '**/*.test.js'],
     languageOptions: {
       globals: {
         ...globals.browser,
-        cy: 'readonly', 
-        ...globals.mocha, 
-        ...globals.cypress, 
+        cy: 'readonly',
+        ...globals.mocha,
+        ...globals.cypress,
       },
     },
   },
