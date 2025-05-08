@@ -243,10 +243,10 @@ function getHostname() {
 function getPort() {
     return HMR_PORT || (typeof location !== 'undefined' ? location.port : HMR_SERVER_PORT);
 }
- 
+// eslint-disable-next-line no-redeclare
 let WebSocket = globalThis.WebSocket;
 if (!WebSocket && typeof module.bundle.root === 'function') try {
-     
+    // eslint-disable-next-line no-global-assign
     WebSocket = module.bundle.root('ws');
 } catch  {
 // ignore.
@@ -258,7 +258,7 @@ var protocol = HMR_SECURE || typeof location !== 'undefined' && location.protoco
     '127.0.0.1',
     '0.0.0.0'
 ].includes(hostname) ? 'wss' : 'ws';
- 
+// eslint-disable-next-line no-redeclare
 var parent = module.bundle.parent;
 if (!parent || !parent.isParcelRequire) {
     // Web extension context
