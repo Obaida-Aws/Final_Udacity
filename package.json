@@ -7,7 +7,7 @@
     "start": "gulp",
     "format": "prettier --write .",
     "test": "mocha",
-    "cypress": "cypress open"
+    "cypress": "gulp test"
   },
   "repository": {
     "type": "git",

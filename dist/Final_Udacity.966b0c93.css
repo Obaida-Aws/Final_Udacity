@@ -1,17 +1,17 @@
-body header {
+header {
   cursor: pointer;
 }
 
-body header h1, nav li {
+header h1, nav li {
   text-transform: uppercase;
 }
 
-body header nav li {
+nav li {
   border-bottom: 2px solid #d3d3d3;
   margin: 10% 5%;
 }
 
-body header nav li:hover {
+nav li:hover {
   border-bottom-color: #45e9f5;
 }
 /*# sourceMappingURL=Final_Udacity.966b0c93.css.map */
